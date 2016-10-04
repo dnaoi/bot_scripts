@@ -1,0 +1,28 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="say" id="JF:{,^nRmkqX-5[oj/dG" x="-71" y="52">
+    <value name="speech">
+      <block type="text" id="SeWYEvUnv!IZCPZ*;qwq">
+        <field name="TEXT">I am </field>
+      </block>
+    </value>
+    <next>
+      <block type="say" id="x3h_(T~+VLL.X@87c}=+">
+        <value name="speech">
+          <block type="get_distance" id="ySv3Prx3S)fmA1Ua5|QK"></block>
+        </value>
+        <next>
+          <block type="say" id="Gj=,UcD4%1=.OB^sUZS=">
+            <value name="speech">
+              <block type="text" id="p6zM.Xol(ipPBDnnj6Pr">
+                <field name="TEXT">centimeters from the nearest obstacle.</field>
+              </block>
+            </value>
+            <next>
+              <block type="say_random" id="rSwc[kVwpZF95[]l!mOy"></block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

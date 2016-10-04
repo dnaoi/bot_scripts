@@ -1,0 +1,53 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_repeat_ext" id="=.**gv/:1JC,L;a%{q(Z" x="49" y="87">
+    <value name="TIMES">
+      <block type="math_number" id="f3vT}8xxA!ey*Fkz*ieZ">
+        <field name="NUM">10</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="set_speed" id="Sw?mz,)6ZFBpf.f5OZ2f">
+        <value name="speed">
+          <block type="math_number" id="/(V-ruJVT_zx!SZa^JFw">
+            <field name="NUM">255</field>
+          </block>
+        </value>
+        <next>
+          <block type="turn_left" id="U*E75k])brjWU,_.a?,]">
+            <next>
+              <block type="wait" id="J5ot(OK2:_]p/4SKV+y.">
+                <value name="time">
+                  <block type="math_number" id=":qDJaSLl*Vohe[:2C*z-">
+                    <field name="NUM">5000</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="set_speed" id="[NozESZdgFUCdnhLR(1p">
+                    <value name="speed">
+                      <block type="math_number" id="`*[T|DNd-`h8,N5;3,;X">
+                        <field name="NUM">100</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="turn_right" id="!Y?XV2AeUnGU8_)95X{E">
+                        <next>
+                          <block type="wait" id="WALd):Wk*8u?N*fq=V:z">
+                            <value name="time">
+                              <block type="math_number" id="y+%^K}/01Z]O1h+o%9!-">
+                                <field name="NUM">5000</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
